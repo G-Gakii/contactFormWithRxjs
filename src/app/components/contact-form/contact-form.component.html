@@ -1,0 +1,23 @@
+<div class="form-container">
+  <form [formGroup]="contactForm" (submit)="addContact()">
+    <h1>Contact Form</h1>
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Phone Number</mat-label>
+      <input matInput formControlName="phoneNumber" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" />
+    </mat-form-field>
+
+    <div class="example-button-container">
+      <button type="submit" mat-fab extended>
+        @if (isEdit) {Edit contact} @else{ Add new contact }
+      </button>
+    </div>
+  </form>
+</div>
