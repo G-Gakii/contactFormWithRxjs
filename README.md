@@ -1,27 +1,37 @@
-# ContactManager
+# Contact Management App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+This is a simple Contact Management application built with Angular. It allows users to create, read, update, and delete contact.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add new contacts
+- Edit existing contacts
+- Delete contacts
 
-## Code scaffolding
+- Form validation for contact details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js and npm installed on your machine
+- Angular CLI installed globally (`npm install -g @angular/cli`)
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+   ```bash
+   git clone git@github.com:G-Gakii/contactFormWithRxjs.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```
 
-## Further help
+2. Navigate to the project directory:
+   cd contact-management-app
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Install the dependencies:
+   npm install
+
+### Running the Application
+
+npm start
